@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300&display=swap');
+
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Azeret Mono', monospace;
+    background-color: #eee;
+}
+.box {
+    margin:0 auto;
+    width: 20%;
+    margin-top: 2rem;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box-form{
+    background-color: white;
+    padding: 1rem 1.5rem 1rem 1.6rem;
+    border-radius: 60px 0px 20px 20px;
+}
+.box-hd{
+    padding: 2rem 0;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+.form-boxes{
+    margin-top: 1rem;
+    border: 1px solid #eee;
+    padding:10px 0 10px 5px;
+    border-radius: 15px 0px 15px 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bolder;
+    font-size: 80%;
+}
+input{
+    outline:none;
+    border:none;
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 500;
+}
+.btn {
+    margin-top: 1.5rem;
+    padding:10px;
+    background-color: black;
+    border-radius:10px 0px 10px 10px;
+
+}
+.sign-up-btn {
+    color: white;
+    text-decoration: none;
+    margin-left: 4rem;
+    font-size: 80%;
+}
